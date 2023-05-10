@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(19, 94, 192);
+}
+#menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: aqua;
+    text-decoration: none;
+}
+#linav{
+    flex-grow: 1;
+}
+#link {
+    color: white;
+}
+
+.sectionflex {
+    margin-bottom: 80px;
+    display: flex;
+}
+.section {
+    margin-bottom: 80px;
+}
+
+#p {
+    margin-bottom: 70px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: azure;
+}
